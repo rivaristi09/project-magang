@@ -13,9 +13,6 @@ class UserModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
 
-    // ✅ Field yang boleh diisi
     protected $allowedFields = ['nama', 'username', 'password', 'level'];
-
-    // Opsional: untuk keamanan
     protected $useTimestamps = false;
 }
